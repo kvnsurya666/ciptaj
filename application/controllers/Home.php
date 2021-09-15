@@ -7,7 +7,7 @@ class Home extends MY_Controller
 	public function index()
 	{
 		$url = base_url();
-		$img = base_url('assets/img/admin/logo mediasolusitek.png');
+		$img = base_url('assets/img/admin/logomediasolusitek.png');
 		$data['logo'] = '<div class="logo">
 							<h1>
 								<a href=' . $url . '>
