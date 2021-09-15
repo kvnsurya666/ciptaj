@@ -30,7 +30,7 @@ class Produk extends MY_Controller
 		$data['pagination'] = pagination('industrialmachinery', $data['countProduk'], $this->per_page);
 
 		$url = base_url();
-		$img = base_url('assets/img/logocbmbaru.png');
+		$img = base_url('assets/img/logomediasolusitek.png');
 		$data['kategori'] = 'industrialmachinery';
 		$data['katalog'] = $this->MProduk->getProduk(0, $this->per_page, $this->start());
 		$data['logo'] = '<div class="logo">
@@ -49,7 +49,7 @@ class Produk extends MY_Controller
 		$data['pagination'] = pagination('aksesoris', $data['countProduk'], $this->per_page);
 
 		$url = base_url();
-		$img = base_url('assets/img/logocbmbaru.png');
+		$img = base_url('assets/img/logomediasolusitek.png');
 		$data['kategori'] = 'aksesoris';
 		$data['katalog'] = $this->MProduk->getProduk(1, $this->per_page, $this->start());
 		$data['logo'] = '<div class="logo">
@@ -68,7 +68,7 @@ class Produk extends MY_Controller
 		$data['pagination'] = pagination('jasaperbaikan', $data['countProduk'], $this->per_page);
 
 		$url = base_url();
-		$img = base_url('assets/img/logocbmbaru.png');
+		$img = base_url('assets/img/logomediasolusitek.png');
 		$data['kategori'] = 'jasaperbaikan';
 		$data['katalog'] = $this->MProduk->getProduk(2, $this->per_page, $this->start());
 		$data['logo'] = '<div class="logo">
@@ -84,7 +84,7 @@ class Produk extends MY_Controller
 	public function detail($id_sepatu)
 	{
 		$url = base_url();
-		$img = base_url('assets/img/logocbmbaru.png');
+		$img = base_url('assets/img/logomediasolusitek.png');
 		$data['kategori'] = 'detail';
 		$data['logo'] = '<div class="logo">
 							<h1>
