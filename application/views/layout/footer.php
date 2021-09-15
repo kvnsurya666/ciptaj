@@ -93,7 +93,7 @@
                             </div>
                             <div class="address-right">
                                 <h6>Layanan Pelanggan</h6>
-                                <p>+62812 5469 3810</p>
+                                <p>+62852 3277 7499</p>
                             </div>
                             <div class="clearfix"> </div>
                         </div>
@@ -103,7 +103,7 @@
                             </div>
                             <div class="address-right">
                                 <h6>E-mail</h6>
-                                <p><a href="mailto:yasmien.ilyas@gmail.com">yasmien.ilyas@gmail.com</a></p>
+                                <p><a href="mailto:mediasolusitek@gmail.com">mediasolusitek@gmail.com</a></p>
                             </div>
                             <div class="clearfix"> </div>
                         </div>
@@ -131,7 +131,7 @@
 <script>
     $(function() {
         $('#WAButton').floatingWhatsApp({
-            phone: '+6281254693810', //WhatsApp Business phone number International format-
+            phone: '+6285232777499', //WhatsApp Business phone number International format-
             //Get it with Toky at https://toky.co/en/features/whatsapp.
             headerTitle: 'Hubungi kami di WhatsApp!', //Popup Title
             popupMessage: 'Hai, Anda butuh bantuan?', //Popup Message
