@@ -1,10 +1,10 @@
 <!-- <html> -->
 
 <head>
-    <title>CNC Tools Surabaya</title>
-    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url('assets/img/faviconcbm.ico') ?>">
+    <title>Mediasolusitek</title>
+    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url('assets/img/faviconmedia.ico') ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Cache-Control" content="no-cache"/>
+    <meta http-equiv="Cache-Control" content="no-cache" />
     <meta http-equiv="Expires" content="-1" />
 
     <!-- custom-theme -->
@@ -40,20 +40,20 @@
 
 <body>
     <?= $html ?>
-        <?= $logo ?>
-        <div class="overlay overlay-contentpush">
-            <button type="button" class="overlay-close"><i class="fa fa-times" aria-hidden="true"></i></button>
-            <nav>
-                <ul>
-                    <li><a href="<?= base_url() ?>">Home</a></li>
-                    <li><a href="<?= base_url('produk/industrialmachinery') ?>">Industrial Machinery</a></li>
-                    <li><a href="<?= base_url('produk/aksesoris') ?>">Aksesoris</a></li>
-                    <li><a href="<?= base_url('produk/jasaperbaikan') ?>">Jasa Perbaikan</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="mobile-nav-button">
-            <button id="trigger-overlay" type="button"><i class="fa fa-bars" aria-hidden="true"></i></button>
-        </div>
-        <div class="clearfix"></div>
+    <?= $logo ?>
+    <div class="overlay overlay-contentpush">
+        <button type="button" class="overlay-close"><i class="fa fa-times" aria-hidden="true"></i></button>
+        <nav>
+            <ul>
+                <li><a href="<?= base_url() ?>">Home</a></li>
+                <li><a href="<?= base_url('produk/industrialmachinery') ?>">Industrial Machinery</a></li>
+                <li><a href="<?= base_url('produk/aksesoris') ?>">Aksesoris</a></li>
+                <li><a href="<?= base_url('produk/jasaperbaikan') ?>">Jasa Perbaikan</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="mobile-nav-button">
+        <button id="trigger-overlay" type="button"><i class="fa fa-bars" aria-hidden="true"></i></button>
+    </div>
+    <div class="clearfix"></div>
     <div style="height:80;background-color: #080808;width:100%;position:fixed;z-index:10"></div>
