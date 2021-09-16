@@ -71,7 +71,7 @@
     <div class="footer_inner_info_w3ls_agileits">
         <div class="col-md-3 footer-left">
             <!--<h2><a href="beranda"><span>T</span>Bakul Sepatu</a></h2>-->
-            <h2><a href="<?= base_url() ?>"><img src=" <?= base_url("assets/img/logocbmbaru.png") ?>" style="margin-top:-10px;" width="100px"></a></h2>
+            <h2><a href="<?= base_url() ?>"><img src=" <?= base_url("assets/img/logomediasolusitek.png") ?>" style="margin-top:-10px;" width="100px"></a></h2>
             <p><b>Metal working and machinery</b></p>
 
         </div>
