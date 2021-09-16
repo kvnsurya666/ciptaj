@@ -32,13 +32,20 @@
 					<span>Beli Via WhatsApp</span>
 				</a>
 			</div>
-			<input type="hidden" name="cek_style" id="cek-style" value="">
-			<input type="hidden" name="cek_jns" id="cek-jns-stok" value="0">
-			<input type="hidden" name="status_fav" id="cek-status-fav" value="1">
-			<input type="hidden" name="cek_warna" id="cek-warna" value="">
-			<input type="hidden" name="usr_fav" id="cek-user" value="">
-			<input type="hidden" name="jns_mbr" id="cek-jns-mbr" value="">
+
 			</a>
+		</div>
+		<div class="resp-tabs-container">
+			<h2 class="resp-accordion resp-tab-active" role="tab" aria-controls="tab_item-0"><span class="resp-arrow"></span>Deskripsi</h2>
+			<div class="tab1 resp-tab-content resp-tab-content-active" aria-labelledby="tab_item-0" style="display:block">
+
+				<div class="single_page">
+					<p> <?= $detail['deskripsi']  ?> </p>
+
+
+				</div>
+			</div>
+
 		</div>
 		<div class="clearfix"> </div>
 	</div>
