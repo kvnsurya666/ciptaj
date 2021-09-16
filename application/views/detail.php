@@ -35,17 +35,27 @@
 
 			</a>
 		</div>
-		<div class="resp-tabs-container">
-			<h2 class="resp-accordion resp-tab-active" role="tab" aria-controls="tab_item-0"><span class="resp-arrow"></span>Deskripsi</h2>
-			<div class="tab1 resp-tab-content resp-tab-content-active" aria-labelledby="tab_item-0" style="display:block">
+		<div class="responsive_tabs">
+			<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+				<ul class="resp-tabs-list">
+					<li class="resp-tab-item resp-tab-active" aria-controls="tab_item-0" role="tab">Deskripsi</li>
 
-				<div class="single_page">
-					<p> <?= $detail['deskripsi']  ?> </p>
+				</ul>
 
-
-				</div>
 			</div>
 
+			<div class="resp-tabs-container">
+				<h2 class="resp-accordion resp-tab-active" role="tab" aria-controls="tab_item-0"><span class="resp-arrow"></span>Deskripsi</h2>
+				<div class="tab1 resp-tab-content resp-tab-content-active" aria-labelledby="tab_item-0" style="display:block">
+
+					<div class="single_page">
+						<p> <?= $detail['deskripsi']  ?> </p>
+
+
+					</div>
+				</div>
+
+			</div>
 		</div>
 		<div class="clearfix"> </div>
 	</div>
