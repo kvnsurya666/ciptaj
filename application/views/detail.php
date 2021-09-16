@@ -35,6 +35,7 @@
 
 			</a>
 		</div>
+		<div class="clearfix"> </div>
 		<div class="responsive_tabs">
 			<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
 				<ul class="resp-tabs-list">
