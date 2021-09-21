@@ -87,6 +87,12 @@
             </div>
         </div>
         <button type="submit" name="submit" class="btn btn-lg btn-default" style="margin-top: 10px">Publish</button>
+        <div class="form-group for-shop">
+            <label>Deskripsi</label>
+            <textarea rows="10" cols="250">
+            </textarea>
+        </div>
+
     </form>
 </div>
 
