@@ -96,7 +96,8 @@ class MProduk extends CI_Model
       "kode_kategori" => $kategori,
       "kode_model" => $this->input->post('model'),
       "kode_merk" => $this->input->post('merk'),
-      "gambar" => $this->upload->data('file_name')
+      "gambar" => $this->upload->data('file_name'),
+      "deskripsi" => $this->input->post('deskripsi')
     ];
     $this->db->insert('barang', $data);
   }
