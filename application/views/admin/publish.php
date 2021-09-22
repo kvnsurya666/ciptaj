@@ -86,11 +86,11 @@
                 </div>
             </div>
         </div>
-        <button type="submit" name="submit" class="btn btn-lg btn-default" style="margin-top: 10px">Publish</button>
         <div class="form-group for-shop">
             <label>Deskripsi</label>
             <input type="textarea" name="deskripsi" value="" class="form-control" required>
         </div>
+        <button type="submit" name="submit" class="btn btn-lg btn-default" style="margin-top: 10px">Publish</button>
 
     </form>
 </div>
