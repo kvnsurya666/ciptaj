@@ -22,10 +22,9 @@
 			<div class="space" style="display: none">
 			</div>
 		</div>
-		<div class="col-md-8 single-right-left simpleCart_shelfItem">
+		<div class="col-md-8 single-right-left simpleCart_shelfItem mb-3">
 			<h3><?= $detail['nama_barang'] ?></h3>
-			<div class="rating1">
-			</div>
+			<br>
 			<div class="elementor-widget-button">
 				<a id="linkwa" href="https://wa.me/6285232777499?text=Apakah+stok+dengan+nama+produk+%2A<?= $detail['nama_barang'] ?>%2A+tersedia+%3F" target="blank" class="elementor-button elementor-size-sm" role="button">
 					<i class="fa fa-whatsapp bold" aria-hidden="true"></i>
