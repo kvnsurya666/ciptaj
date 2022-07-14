@@ -31,7 +31,7 @@
     </script>
     <script>
         function openNav() {
-            document.getElementById("mySidenav").style.width = "100px";
+            document.getElementById("mySidenav").style.width = "50px";
         }
 
         function closeNav() {
