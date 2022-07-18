@@ -2,7 +2,7 @@
     <div class="style-grids">
         <div class="col-md-6 style-grid style-grid-1">
             <video width="640" height="630">
-                <source src="assets/video/videomesindrilling.mp4" type="video/mp4">
+                <source src="/assets/video/videomesindrilling.mp4" type="video/mp4">
                 <source src="movie.ogg" type="video/ogg">
             </video>
 
@@ -21,7 +21,7 @@
             </div>
         </div>
         <div class="style-image-2">
-            <img src="assets/img/backgroundmachinery.jpg">
+            <img src="/assets/img/backgroundmachinery.jpg">
 
         </div>
     </div>
@@ -42,7 +42,7 @@
                 </div>
             </div>
             <div class="style-image-2">
-                <img src="assets/img/logoaksesoris.jpg">
+                <img src="/assets/img/logoaksesoris.jpg">
 
             </div>
         </div>
