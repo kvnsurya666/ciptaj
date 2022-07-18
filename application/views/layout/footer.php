@@ -16,10 +16,10 @@
                 <div class="item active">
                     <div class="row">
                         <div class="col-md-3 col-sm-3 col-xs-3 slidering">
-                            <div class="thumbnail"><img src="<?= base_url('assets/img/metal1.png') ?>" alt="Image" style="max-width:100%;"></div>
+                            <div class="thumbnail"><img src="<?= base_url('assets/img/charles.jpg') ?>" alt="Image" style="max-width:100%;"></div>
                         </div>
                         <div class="col-md-3 col-sm-3 col-xs-3 slidering">
-                            <div class="thumbnail"><img src="<?= base_url('assets/img/metal2.jpg') ?>" alt="Image" style="max-width:100%;"></div>
+                            <div class="thumbnail"><img src="<?= base_url('assets/img/j&w.jpg') ?>" alt="Image" style="max-width:100%;"></div>
                         </div>
                         <div class="col-md-3 col-sm-3 col-xs-3 slidering">
                             <div class="thumbnail"><img src="<?= base_url('assets/img/metal3.jpg') ?>" alt="Image" style="max-width:100%;"></div>
