@@ -2,7 +2,7 @@
     <div class="style-grids">
         <div class="col-md-6 style-grid style-grid-1">
             <video width="640" height="630" controls autoplay>
-                <source src="assets/video/videomesinbubut.mp4" type="video/mp4">
+                <source src="assets/video/videomesindrilling.mp4" type="video/mp4">
                 <source src="movie.ogg" type="video/ogg">
             </video>
 
