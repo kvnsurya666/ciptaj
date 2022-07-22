@@ -14,7 +14,7 @@
 			<div class="product-shoe-info">
 				<div class="men-pro-item">
 					<div class="men-thumb-item">
-						<img class="img" src="<?= base_url('assets/img/barang/'.kategori_help($row['nama_kategori']).'/'. $row['gambar']); ?>" alt="">
+						<img class="img" src="<?= base_url('/assets/img/barang/'.kategori_help($row['nama_kategori']).'/'. $row['gambar']); ?>" alt="">
 						<div class="men-cart-pro">
 							<div class="inner-men-cart-pro">
 								<a href="<?= base_url('produk/detail/'.$row['id_barang']); ?>" class="link-product-add-cart">Detail</a>
@@ -22,11 +22,11 @@
 						</div>
 						<div class="product-new-top">
 							<?php if ($row['kode_merk'] == 1) :?>
-								<img class="logosmall" src="<?= base_url('assets/img/merk/'.$row['gambar_merk']);?>" alt="">
+								<img class="logosmall" src="<?= base_url('/assets/img/merk/'.$row['gambar_merk']);?>" alt="">
 							<?php elseif ($row['kode_merk'] == 9) :?>
-								<img class="logojasa" src="<?= base_url('assets/img/merk/'.$row['gambar_merk']);?>" alt="">
+								<img class="logojasa" src="<?= base_url('/assets/img/merk/'.$row['gambar_merk']);?>" alt="">
 							<?php else :?>
-								<img class="logo" src="<?= base_url('assets/img/merk/'.$row['gambar_merk']);?>" alt="">
+								<img class="logo" src="<?= base_url('/assets/img/merk/'.$row['gambar_merk']);?>" alt="">
 							<?php endif ?>
 						</div>												
 					</div>
