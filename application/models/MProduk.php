@@ -80,10 +80,10 @@ class MProduk extends CI_Model
     }
 
     //Upload Gambar
-    if (is_dir("assets/img/barang/$group") == false) {
-      mkdir("assets/img/barang/$group");
+    if (is_dir("/assets/img/barang/$group") == false) {
+      mkdir("/assets/img/barang/$group");
     }
-    $config['upload_path']          = 'assets/img/barang/' . $group . '/';
+    $config['upload_path']          = '/assets/img/barang/' . $group . '/';
     $config['allowed_types']        = '*';
     $config['encrypt_name']        = TRUE;
     $this->load->library('upload', $config);
