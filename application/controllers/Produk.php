@@ -30,7 +30,7 @@ class Produk extends MY_Controller
 		$data['pagination'] = pagination('industrialmachinery', $data['countProduk'], $this->per_page);
 
 		$url = base_url();
-		$img = base_url('assets/img/logomediasolusitek.png');
+		$img = base_url('/assets/img/logomediasolusitek.png');
 		$data['kategori'] = 'industrialmachinery';
 		$data['katalog'] = $this->MProduk->getProduk(0, $this->per_page, $this->start());
 		$data['logo'] = '<div class="logo">
