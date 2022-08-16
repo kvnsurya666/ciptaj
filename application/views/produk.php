@@ -4,22 +4,21 @@
 	header("Expires: Wed, 1 Jan 2020 00:00:00 GMT"); // Anytime in the past
 ?>
 <div class="ads-grid_shop">
-
 	<!---728x90--->
-<div class="left-ads-display col-md-12">
-	<div class="wrapper_top_shop">
-		<div class="clearfix"></div>
-		<?php foreach ($katalog as $row) :?>
-		<div class="col-md-3 product-men">
-			<div class="product-shoe-info">
-				<div class="men-pro-item">
-					<div class="men-thumb-item">
-						<img class="img" src="<?= base_url('/assets/img/barang/'.kategori_help($row['nama_kategori']).'/'. $row['gambar']); ?>" alt="">
-						<div class="men-cart-pro">
-							<div class="inner-men-cart-pro">
-								<a href="<?= base_url('produk/detail/'.$row['id_barang']); ?>" class="link-product-add-cart">Detail</a>
+	<div class="left-ads-display col-md-12">
+		<div class="wrapper_top_shop">
+			<div class="clearfix"></div>
+			<?php foreach ($katalog as $row) :?>
+			<div class="col-md-3 product-men">
+				<div class="product-shoe-info">
+					<div class="men-pro-item">
+						<div class="men-thumb-item">
+							<img class="img" src="<?= base_url('/assets/img/barang/'.kategori_help($row['nama_kategori']).'/'. $row['gambar']); ?>" alt="">
+							<div class="men-cart-pro">
+								<div class="inner-men-cart-pro">
+									<a href="<?= base_url('produk/detail/'.$row['id_barang']); ?>" class="link-product-add-cart">Detail</a>
+								</div>
 							</div>
-						</div>
 						<div class="product-new-top">
 							<?php if ($row['kode_merk'] == 1) :?>
 								<img class="logosmall" src="<?= base_url('/assets/img/merk/'.$row['gambar_merk']);?>" alt="">
@@ -46,6 +45,4 @@
 		</div>
 		<div class="clearfix"></div>
 	</div>
-</div>
-		<div class="clearfix"></div>
 </div>
